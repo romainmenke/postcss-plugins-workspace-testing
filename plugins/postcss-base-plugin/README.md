@@ -16,7 +16,7 @@
 /* becomes */
 
 .foo {
-	color: blue;
+	color: purple;
 }
 
 .baz {
@@ -78,7 +78,7 @@ postcssBasePlugin({ preserve: true })
 /* becomes */
 
 .foo {
-	color: blue;
+	color: purple;
 	color: red;
 }
 
