@@ -18,7 +18,7 @@ const creator: PluginCreator<pluginOptions> = (opts?: pluginOptions) => {
 		Declaration(decl) {
 			if (decl.value === 'red') {
 				// Determine the new value.
-				let newValue = 'blue';
+				let newValue = 'purple';
 				if (options.color) {
 					newValue = options.color;
 				}
